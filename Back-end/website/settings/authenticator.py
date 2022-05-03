@@ -11,6 +11,7 @@ SIMPLE_JWT = {  # For authenticator
 
 DJOSER = {
     'SERIALIZERS': {
-        'user_create': 'authenticator.serializers.UserCreateSerializer'
+        'user_create': 'authenticator.serializers.UserCreateSerializer',
+        'user': 'authenticator.serializers.UserRetrieveSerializer',
     }
 }
